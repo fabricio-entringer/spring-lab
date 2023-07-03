@@ -8,6 +8,8 @@ spring:
                     uri: https://github.com/fabricio-entringer/spring-lab
                     default-label: master
                     basedir: config
+                    search-paths:
+                        - config
 
 server:
     port: 9999
